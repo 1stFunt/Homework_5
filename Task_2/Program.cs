@@ -8,8 +8,7 @@ WriteArray(numbers);
 int summ = 0;
 for (int i = 0; i < numbers.Length; i++)
 {
-    if (i % 2 != 0)
-        summ = summ + numbers[i];
+    if (i % 2 != 0) summ = summ + numbers[i];
 }
 Console.Write(summ);
 void FillArrayRandomNumbers(int[] array, int min, int max)

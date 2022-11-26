@@ -10,8 +10,7 @@ void Count(int[] array)
     int count = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        if (array[i] % 2 != 0)
-            continue;
+        if (array[i] % 2 != 0) continue;
         count++;
     }
     Console.Write(count);
