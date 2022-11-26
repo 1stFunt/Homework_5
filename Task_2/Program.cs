@@ -22,5 +22,5 @@ void WriteArray(int[] array)
 {
     for (int index = 0; index < array.Length; index++)
         continue;
-    Console.Write("[" + String.Join(", ", numbers) + "] -> ");
+    Console.Write("[" + String.Join(", ", array) + "] -> ");
 }

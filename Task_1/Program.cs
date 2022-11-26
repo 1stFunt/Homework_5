@@ -10,7 +10,7 @@ void Count(int[] array)
     int count = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        if (array[i] % 2 != 0) continue;
+        if (array[i] % 2 != 0)continue;
         count++;
     }
     Console.Write(count);
@@ -27,5 +27,5 @@ void WriteArray(int[] array)
 {
     for (int index = 0; index < array.Length; index++)
         continue;
-    Console.Write("[" + String.Join(", ", numbers) + "] -> ");
+    Console.Write("[" + String.Join(", ", array) + "] -> ");
 }
